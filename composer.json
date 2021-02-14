@@ -1,0 +1,30 @@
+{
+    "name": "FxGrow/installer-yii",
+    "version": "dev-master",
+    "description": "Easy Installer For Fxgrow Yii2 Websites",
+    "type": "yii2-extension",
+    "homepage": "https://fxgrow.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hassan Harb",
+            "email": "hharb@fxgrow.com",
+            "role" : "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\installer\\": "/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
